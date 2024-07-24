@@ -4,9 +4,8 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = Math.floor(Math.random() * 101) // тестовое значение, можно изменять
-let grade
-
+let score = 85; // тестовое значение, можно изменять
+let grade; 
 // your code
 
 if (grade = score >= 0 && score <= 49) {
@@ -21,4 +20,4 @@ if (grade = score >= 0 && score <= 49) {
     console.log('A');
 }
 
-    
+
