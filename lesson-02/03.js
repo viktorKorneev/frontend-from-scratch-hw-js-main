@@ -38,4 +38,4 @@ switch ((grade = score >= 0 && score <= 49)) {
 //   case true:
 //     grade = score >= 90 && score <= 100;
 //     console.log("A");
-// }
+}
