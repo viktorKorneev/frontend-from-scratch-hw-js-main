@@ -13,4 +13,4 @@ function isEven(a) {
   }
   return num;
 }
-isEven(30);
+isEven(3);
