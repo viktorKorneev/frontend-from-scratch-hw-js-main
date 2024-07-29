@@ -3,11 +3,11 @@
 
 function isEven(a) {
     const total = a
-  if (a % 2) {
-    console.log(false);
-  } else {
+  if (a % 2 == 0) {
     console.log(true);
+  } else {
+    console.log(false);
     return total
   }
 }
- isEven(20);
+ isEven(30);
