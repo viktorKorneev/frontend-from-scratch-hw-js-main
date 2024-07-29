@@ -2,12 +2,12 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(a) {
-    const total = a
+  const total = a;
   if (a % 2 == 0) {
     console.log(true);
   } else {
     console.log(false);
-    return total
   }
+  return total;
 }
- isEven(30);
+isEven(30);
