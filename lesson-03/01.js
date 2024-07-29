@@ -6,4 +6,4 @@ function calculateAverage(a, b) {
   return total;
 }
 
-calculateAverage();
+calculateAverage(4, 8);
