@@ -8,4 +8,4 @@ function isEven(a) {
     console.log(true);
   }
 }
-isEven(20);
+ isEven(20);
