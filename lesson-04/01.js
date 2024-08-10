@@ -21,6 +21,6 @@ function includesElement(array, element) {
   }
   return false;
 }
-console.log(includesElement([1, 2, 3], 1));
+console.log(includesElement([1, 2, 3,], 2));
 
 
