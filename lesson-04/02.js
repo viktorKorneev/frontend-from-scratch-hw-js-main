@@ -27,3 +27,9 @@ function findUniqueElements(array) {
 }
 
 console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
+
+
+
+
+
+
