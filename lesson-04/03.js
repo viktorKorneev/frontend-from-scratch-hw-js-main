@@ -22,7 +22,7 @@ function findCommonElements(array1, array2) {
     for(let i = 0; i < array1.length; i++){
         for(let j = 0; j < array1.length; j++){
             if (array1[i] === array2[j]){
-                newArray.push(array1[i])
+                newArray.push(array1[i] = array2[j])
             }
             
         }
@@ -30,4 +30,4 @@ function findCommonElements(array1, array2) {
     }
     return newArray
 }
-console.log(findCommonElements([1, 3, 4], [1, 3, 4]));
+console.log(findCommonElements([true, false], [false, false]));
