@@ -30,25 +30,22 @@ console.log(gallery)
 */
 
 const gallery = {
-  'Mona Lisa': 'Leonardo da Vinci',
-  'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvard Munch',
-}
+  "Mona Lisa": "Leonardo da Vinci",
+  "Starry Night": "Vincent van Gogh",
+  "The Scream": "Edvard Munch",
+};
 
 function updateGallery(objGallery, produced, newValue) {
-  for(let key in gallery){
-    if(objGallery[produced] === gallery[key]) {
-      objGallery[produced] += newValue
+  for (let key in gallery) {
+    if (objGallery[produced] === gallery[key]) {
+      objGallery[produced] += newValue;
     } else if (objGallery[produced] !== gallery[key]) {
-      objGallery[produced] = newValue
+      objGallery[produced] = newValue;
     }
-    
   }
-  return gallery
 }
 
+updateGallery(gallery, "Mona Lisa", "Leonardo da Vinci, 1503-1506");
+updateGallery(gallery, "The Persistence of Memory", "Salvador Dali");
 
-updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
-updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali')
-
-console.log(gallery)
+console.log(gallery);
