@@ -35,12 +35,12 @@ const gallery = {
   "The Scream": "Edvard Munch",
 };
 
-function updateGallery(objGallery, produced, newValue) {
+function updateGallery(gallery, produced, newValue) {
   for (let key in gallery) {
-    if (objGallery[produced] === gallery[key]) {
-      objGallery[produced] += newValue;
-    } else if (objGallery[produced] !== gallery[key]) {
-      objGallery[produced] = newValue;
+    if (gallery[produced] === gallery[key]) {
+      gallery[produced] += newValue;
+    } else if (gallery[produced] !== gallery[key]) {
+      gallery[produced] = newValue;
     }
   }
 }
