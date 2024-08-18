@@ -35,4 +35,20 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updateGallery(objGallery, produced, newValue) {
+  for(let key in gallery){
+    if(objGallery[produced] === gallery[key]) {
+      objGallery[produced] += newValue
+    } else if (objGallery[produced] !== gallery[key]) {
+      objGallery[produced] = newValue
+    }
+    
+  }
+  return gallery
+}
+
+
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali')
+
+console.log(gallery)
