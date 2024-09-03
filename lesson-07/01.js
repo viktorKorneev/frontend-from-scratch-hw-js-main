@@ -7,12 +7,10 @@
 */
 
 function capitalizeWords(str) {
- 
-//  for(let i = 0; i < str.length; i++){
-  
-  str = str[0].toUpperCase()
-//  }
- return str
-}
+  let newWord = str.split(" ")
+  for(let i = 0; i < newWord.length; i++){
+    newWord[i] = newWord[i][0].toUpperCase() + newWord[i].slice(1)
+  }
+  return newWord.join(" ")
+  }
 console.log(capitalizeWords("hello world from javascript"));
-
