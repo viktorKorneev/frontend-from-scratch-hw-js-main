@@ -36,4 +36,5 @@ const filter = (array, callback) => {
 const oddNumbers = (element, index) => {
   return element % 2 !== 0;
 };
-filter([1, 2, 3, 4, 5], oddNumbers);
+console.log(filter([1, 2, 3, 4, 5], oddNumbers));
+ 
